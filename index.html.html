@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HyperFlux</title>
+    <script src="../p5/p5.js" type="text/javascript"></script>
+    <script src="../p5/addons/p5.dom.js" type="text/javascript"></script>
+    <script src="../p5/addons/p5.sound.js" type="text/javascript"></script>
+    <link rel="icon" href="images/icon.png">
+    <script src="sketch.js" type="text/javascript"></script>
+
+    <!-- custom CSS -->
+    <style>
+    body{
+      background-color: black;
+    }
+    img{
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+    }
+    canvas {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #text{
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      color: rgb(244, 232, 66);
+      font-family: "Arial";
+    }
+    #settings{
+      position: absolute;
+      bottom:50px;
+      left:10px;
+      color: rgb(244, 232, 66);
+      font-family: "Arial";
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id="settings">
+      <!-- EASY: <input type="checkbox" id="easy" onclick="easyFunction()"> -->
+      <!-- NORMAL: <input type="checkbox" id="normal" onclick="normalFunction()"> -->
+    </div>
+    <div id="text">
+      <!-- INVINCIBLE: <input type="checkbox" id="invincible" onclick="invincibleFunction()"> -->
+    </div>
+  </body>
+</html>
