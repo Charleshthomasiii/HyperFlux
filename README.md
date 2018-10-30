@@ -2,7 +2,7 @@
 
 http://www.charleshowardthomas.com/HyperFlux/game.html
 
-Small web based game inspired by Galaga. Built with p5.The objectives are simple: avoid the red asteroids and collect the yellow. 
+Small web based game inspired by Galaga. Built with p5. The objectives are simple: avoid the red asteroids and collect the yellow. 
 I'm a fan of interesting gameplay that arises from simple rules. The game starts easy but grows in difficulty as asteroids spawn.
 
 In order to emphasize timing and precise mechanics, I restricted ship and asteroid movement to 10 block increments. 
